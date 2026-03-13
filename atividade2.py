@@ -50,7 +50,7 @@ palavra_mais_frequente = max(contagem, key=contagem.get)
 repetidas = [palavra for palavra, qtd in contagem.items() if qtd > 1]
 
 # final
-print("\n===== RELATÓRIO =====")
+print("\nRELATÓRIO")
 print("Total de palavras:", total_palavras)
 print("Total de palavras únicas:", palavras_unicas)
 print("Palavras repetidas:", repetidas)
